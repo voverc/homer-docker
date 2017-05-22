@@ -1,7 +1,7 @@
 <?php
 define('CONFIG_VERSION', "2.0.1"); /* Please ALWAYS include CONFIGVERSION */
 define('WEBHOMER_VERSION', "5.0.1"); /* WEBHOMER VERSION */
-define('HOMER_TIMEZONE', "Europe/Amsterdam"); /* Set a global application default timezone */
+define('HOMER_TIMEZONE', "Europe/Rome"); /* Set a global application default timezone */
 
 /* CFLOW Options */
 define('CFLOW_HPORT', 2); /* Column/Host Mode = Plain: 0, +Port: 1, Auto-Select: 2 */
@@ -20,6 +20,9 @@ define('BLEGTAIL', "_b2b-1"); /* session-ID correlation suffix, required for b2b
 
 /* Database: mysql */
 define('DATABASE_DRIVER',"mysql");
+
+/* Partition rtcp_capture table */
+define('RTCP_TABLE_PARTITION', 0);
 
 /* AUTH: CLASS NAME. i.e. Internal  */
 define('AUTHENTICATION',"Internal");
