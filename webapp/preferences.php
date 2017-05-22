@@ -1,7 +1,7 @@
 <?php
 define('CONFIG_VERSION', "2.0.1"); /* Please ALWAYS include CONFIGVERSION */
 define('WEBHOMER_VERSION', "5.0.1"); /* WEBHOMER VERSION */
-define('HOMER_TIMEZONE', "Europe/Rome"); /* Set a global application default timezone */
+define('HOMER_TIMEZONE', "Europe/Amsterdam"); /* Set a global application default timezone */
 
 /* CFLOW Options */
 define('CFLOW_HPORT', 2); /* Column/Host Mode = Plain: 0, +Port: 1, Auto-Select: 2 */
